@@ -9,6 +9,16 @@
    ],
    "downloadFormat": "https://github.com/glfw/glfw/archive/$v.tar.gz",
    "fileFormat": "glfw-$v.tar.gz"
+  },
+  "msvc64":{
+   "minVersion": "3.2.1",
+   "stableVersion": "3.2.1",
+   "stableToolchain": "0.1.0",
+   "versionMap":[
+    [ "0.1.0", "0.1.0", "3.2.1" ]
+   ],
+   "downloadFormat": "https://github.com/glfw/glfw/archive/$v.zip",
+   "fileFormat": "glfw-$v.zip"
   }
  }
 }
