@@ -1,5 +1,5 @@
 set(${PKG_SIMPLE_NAME}_INCLUDE_DIRS ${PKG_INSTALL_DIR}/include)
-set(${PKG_SIMPLE_NAME}_LIBRARIES ${PKG_INSTALL_DIR}/src/libglfw3.a)
+set(${PKG_SIMPLE_NAME}_LIBRARIES ${PKG_INSTALL_DIR}/lib/libglfw3.a)
 
 # Create project entry
 ExternalProject_Add(${PKG_DISPLAY}
@@ -13,7 +13,7 @@ ExternalProject_Add(${PKG_DISPLAY}
 		-DGLFW_BUILD_DOCS=OFF
 	BUILD_IN_SOURCE 1
 	BUILD_BYPRODUCTS
-		${PKG_INSTALL_DIR}/src/libglfw3.a
+		${PKG_INSTALL_DIR}/lib/libglfw3.a
 )
 
 # BUILD_COMMAND make -j5
