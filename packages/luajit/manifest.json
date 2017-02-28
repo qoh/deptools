@@ -1,0 +1,24 @@
+{
+ "platform":{
+  "gnu64":{
+   "minVersion": "2.0.4",
+   "stableVersion": "2.0.4",
+   "stableToolchain": "0.1.0",
+   "versionMap":[
+    [ "0.1.0", "0.1.0", "2.0.4" ]
+   ],
+   "downloadFormat": "http://luajit.org/download/LuaJIT-$v.tar.gz",
+   "fileFormat": "luajit-$v.tar.gz"
+  },
+  "msvc64":{
+   "minVersion": "2.0.4",
+   "stableVersion": "2.0.4",
+   "stableToolchain": "0.1.0",
+   "versionMap":[
+    [ "0.1.0", "0.1.0", "2.0.4" ]
+   ],
+   "downloadFormat": "http://luajit.org/download/LuaJIT-$v.zip",
+   "fileFormat": "luajit-$v.zip"
+  }
+ }
+}
