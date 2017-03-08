@@ -14,6 +14,5 @@ ExternalProject_Add(${PKG_DISPLAY}
 	BUILD_IN_SOURCE 1
 	INSTALL_COMMAND
 		cmake -E copy_directory ${PKG_SOURCE_DIR}/Source ${PKG_SOURCE_DIR}/include/raknet
-	BUILD_BYPRODUCTS
-		${PKG_SOURCE_DIR}/Lib/LibStatic/Release/RakNetLibStatic.lib
+	BUILD_BYPRODUCTS ${PKG_SIMPLE_NAME}_LIBRARIES
 )

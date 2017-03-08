@@ -11,6 +11,5 @@ ExternalProject_Add(${PKG_DISPLAY}
 	BUILD_COMMAND cmake --build . --target glew_s --config Release
 	BUILD_IN_SOURCE 1
 	INSTALL_COMMAND ""
-	BUILD_BYPRODUCTS
-		${PKG_SOURCE_DIR}/lib/Release/libglew32.lib
+	BUILD_BYPRODUCTS ${PKG_SIMPLE_NAME}_LIBRARIES
 )

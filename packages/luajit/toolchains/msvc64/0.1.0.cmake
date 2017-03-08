@@ -31,6 +31,5 @@ ExternalProject_Add(${PKG_DISPLAY}
 			& pushd src\
 			& msvcbuild.bat static"
 	BUILD_IN_SOURCE 1
-	BUILD_BYPRODUCTS
-		${PKG_SOURCE_DIR}/src/lua51.lib
+	BUILD_BYPRODUCTS ${PKG_SIMPLE_NAME}_LIBRARIES
 )

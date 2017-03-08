@@ -1,0 +1,24 @@
+{
+ "platform":{
+  "gnu64":{
+   "minVersion": "1.8.0",
+   "stableVersion": "1.8.0",
+   "stableToolchain": "0.1.0",
+   "versionMap":[
+    [ "0.1.0", "0.1.0", "1.8.0" ]
+   ],
+   "downloadFormat": "https://github.com/google/googletest/archive/release-$v.tar.gz",
+   "fileFormat": "googletest-$v.tar.gz"
+  },
+  "msvc64":{
+   "minVersion": "1.8.0",
+   "stableVersion": "1.8.0",
+   "stableToolchain": "0.1.0",
+   "versionMap":[
+    [ "0.1.0", "0.1.0", "1.8.0" ]
+   ],
+   "downloadFormat": "https://github.com/google/googletest/archive/release-$v.zip",
+   "fileFormat": "googletest-$v.zip"
+  }
+ }
+}
