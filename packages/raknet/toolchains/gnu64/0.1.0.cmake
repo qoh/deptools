@@ -1,5 +1,5 @@
-set(${PKG_SIMPLE_NAME}_INCLUDE_DIRS ${PKG_INSTALL_DIR}/include)
-set(${PKG_SIMPLE_NAME}_LIBRARIES ${PKG_INSTALL_DIR}/lib/libRakNetLibStatic.a)
+set(${PKG_SIMPLE_NAME}_INCLUDE_DIRS ${PKG_SOURCE_DIR}/include)
+set(${PKG_SIMPLE_NAME}_LIBRARIES ${PKG_SOURCE_DIR}/Lib/LibStatic/libRakNetLibStatic.a)
 
 # Create project entry
 ExternalProject_Add(${PKG_DISPLAY}
@@ -12,5 +12,5 @@ ExternalProject_Add(${PKG_DISPLAY}
 		-DRAKNET_ENABLE_DLL=OFF
 	BUILD_IN_SOURCE 1
 	BUILD_BYPRODUCTS
-		${PKG_INSTALL_DIR}/lib/libRakNetLibStatic.a
+		${PKG_SOURCE_DIR}/Lib/LibStatic/libRakNetLibStatic.a
 )
