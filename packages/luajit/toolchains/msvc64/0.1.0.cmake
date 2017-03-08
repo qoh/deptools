@@ -10,7 +10,6 @@ set(TARGET_MSVC_PATH "${T___MSVC_DIR}")
 set(T___PUSHD_CMD "pushd ${TARGET_MSVC_PATH}")
 string(SUBSTRING ${TARGET_MSVC_PATH} 0 2 T___DRIVE_CMD)
 
-# TODO: Figure out why we need to popd twice before going back into src
 # Create project entry
 ExternalProject_Add(${PKG_DISPLAY}
 	USES_TERMINAL_BUILD 1

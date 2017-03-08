@@ -1,0 +1,24 @@
+{
+ "platform":{
+  "gnu64":{
+   "minVersion": "0.12.0",
+   "stableVersion": "0.12.1",
+   "stableToolchain": "0.1.0",
+   "versionMap":[
+    [ "0.1.0", "0.1.0", "0.12.0" ]
+   ],
+   "downloadFormat": "https://github.com/gabime/spdlog/archive/v$v.tar.gz",
+   "fileFormat": "spdlog-$v.tar.gz"
+  },
+  "msvc64":{
+   "minVersion": "0.12.0",
+   "stableVersion": "0.12.1",
+   "stableToolchain": "0.1.0",
+   "versionMap":[
+    [ "0.1.0", "0.1.0", "0.12.0" ]
+   ],
+   "downloadFormat": "https://github.com/gabime/spdlog/archive/v$v.zip",
+   "fileFormat": "spdlog-$v.zip"
+  }
+ }
+}

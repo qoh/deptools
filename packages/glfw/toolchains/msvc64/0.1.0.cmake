@@ -15,6 +15,3 @@ ExternalProject_Add(${PKG_DISPLAY}
 	BUILD_BYPRODUCTS
 		${PKG_INSTALL_DIR}/lib/glfw3.lib
 )
-
-# BUILD_COMMAND make -j5
-# INSTALL_COMMAND make install PREFIX=${PACKAGE_DIR}/${PKG_DISPLAY}
