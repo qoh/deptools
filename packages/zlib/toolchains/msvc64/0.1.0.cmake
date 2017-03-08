@@ -1,5 +1,5 @@
 set(${PKG_SIMPLE_NAME}_INCLUDE_DIRS ${PKG_INSTALL_DIR}/include)
-set(${PKG_SIMPLE_NAME}_LIBRARIES ${PKG_INSTALL_DIR}/lib/zlib.lib)
+set(${PKG_SIMPLE_NAME}_LIBRARIES ${PKG_INSTALL_DIR}/lib/zlibstatic.lib)
 
 # Create project entry
 ExternalProject_Add(${PKG_DISPLAY}
@@ -9,5 +9,5 @@ ExternalProject_Add(${PKG_DISPLAY}
 	CMAKE_ARGS
 		-DCMAKE_INSTALL_PREFIX=${PKG_INSTALL_DIR}
 	BUILD_BYPRODUCTS
-		${PKG_INSTALL_DIR}/lib/zlib.lib
+		${PKG_INSTALL_DIR}/lib/zlibstatic.lib
 )
