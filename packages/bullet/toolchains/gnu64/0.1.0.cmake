@@ -4,7 +4,7 @@ set(${PKG_SIMPLE_NAME}_LIBRARIES
 	${PKG_INSTALL_DIR}/lib/libBullet2FileLoader.a
 	${PKG_INSTALL_DIR}/lib/libBullet3Collision.a
 	${PKG_INSTALL_DIR}/lib/libBullet3Dynamics.a
-	${PKG_INSTALL_DIR}/lib/libBullet3InverseDynamics.a
+	${PKG_INSTALL_DIR}/lib/libBulletInverseDynamics.a
 	${PKG_INSTALL_DIR}/lib/libLinearMath.a
 	${PKG_INSTALL_DIR}/lib/libBullet3Geometry.a
 	${PKG_INSTALL_DIR}/lib/libBulletDynamics.a
