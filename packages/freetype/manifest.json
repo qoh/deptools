@@ -1,0 +1,24 @@
+{
+ "platform":{
+  "gnu64":{
+   "minVersion": "2.7.1",
+   "stableVersion": "2.7.1",
+   "stableToolchain": "0.1.0",
+   "versionMap":[
+    [ "0.1.0", "0.1.0", "2.7.1" ]
+   ],
+   "downloadFormat": "http://downloads.sourceforge.net/project/freetype/freetype2/$v/freetype-$v.tar.gz",
+   "fileFormat": "freetype-$v.tar.gz"
+  },
+  "msvc64":{
+   "minVersion": "2.7.1",
+   "stableVersion": "2.7.1",
+   "stableToolchain": "0.1.0",
+   "versionMap":[
+    [ "0.1.0", "0.1.0", "2.7.1" ]
+   ],
+   "downloadFormat": "http://downloads.sourceforge.net/project/freetype/freetype2/$v/freetype-$v.tar.gz",
+   "fileFormat": "freetype-$v.tar.gz"
+  }
+ }
+}
