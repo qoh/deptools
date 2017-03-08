@@ -17,7 +17,7 @@
    "versionMap":[
     [ "0.1.0", "0.1.0", "4.81.0" ]
    ],
-   "downloadFormat": "https://github.com/OculusVR/openbbg/archive/master.zip",
+   "downloadFormat": "https://github.com/openbbg/RakNet/archive/master.zip",
    "fileFormat": "raknet-$v.zip"
   }
  }
