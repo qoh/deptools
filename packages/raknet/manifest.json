@@ -7,7 +7,7 @@
    "versionMap":[
     [ "0.1.0", "0.1.0", "4.81.0" ]
    ],
-   "downloadFormat": "https://api.github.com/repos/OculusVR/RakNet/tarball/master",
+   "downloadFormat": "https://api.github.com/repos/openbbg/RakNet/tarball/master",
    "fileFormat": "raknet-$v.tar.gz"
   },
   "msvc64":{
@@ -17,7 +17,7 @@
    "versionMap":[
     [ "0.1.0", "0.1.0", "4.81.0" ]
    ],
-   "downloadFormat": "https://github.com/OculusVR/RakNet/archive/master.zip",
+   "downloadFormat": "https://github.com/OculusVR/openbbg/archive/master.zip",
    "fileFormat": "raknet-$v.zip"
   }
  }
