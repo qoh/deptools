@@ -1,0 +1,24 @@
+{
+ "platform":{
+  "gnu64":{
+   "minVersion": "2.86.1",
+   "stableVersion": "2.86.1",
+   "stableToolchain": "0.1.0",
+   "versionMap":[
+    [ "0.1.0", "0.1.0", "2.86.1" ]
+   ],
+   "downloadFormat": "https://github.com/bulletphysics/bullet3/archive/$v.tar.gz",
+   "fileFormat": "bullet-$v.tar.gz"
+  },
+  "msvc64":{
+   "minVersion": "2.86.1",
+   "stableVersion": "2.86.1",
+   "stableToolchain": "0.1.0",
+   "versionMap":[
+    [ "0.1.0", "0.1.0", "2.86.1" ]
+   ],
+   "downloadFormat": "https://github.com/bulletphysics/bullet3/archive/$v.zip",
+   "fileFormat": "bullet-$v.zip"
+  }
+ }
+}
