@@ -1,5 +1,5 @@
 set(${PKG_SIMPLE_NAME}_INCLUDE_DIRS ${PKG_INSTALL_DIR}/include)
-set(${PKG_SIMPLE_NAME}_LIBRARIES libEASTL.a)
+set(${PKG_SIMPLE_NAME}_LIBRARIES ${PKG_INSTALL_DIR}/lib/libEASTL.a)
 
 # Create project entry
 ExternalProject_Add(${PKG_DISPLAY}
