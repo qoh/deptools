@@ -1,9 +1,9 @@
 set(${PKG_SIMPLE_NAME}_INCLUDE_DIRS ${PKG_INSTALL_DIR}/include)
 set(${PKG_SIMPLE_NAME}_LIBRARIES
 	${PKG_INSTALL_DIR}/lib/gmock.lib
-	${PKG_INSTALL_DIR}/lib/gmock_main.lib
+#	${PKG_INSTALL_DIR}/lib/gmock_main.lib
 	${PKG_INSTALL_DIR}/lib/gtest.lib
-	${PKG_INSTALL_DIR}/lib/gtest_main.lib
+#	${PKG_INSTALL_DIR}/lib/gtest_main.lib
 )
 
 # Create project entry
