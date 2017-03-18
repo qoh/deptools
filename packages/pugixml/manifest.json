@@ -1,0 +1,24 @@
+{
+ "platform":{
+  "gnu64":{
+   "minVersion": "1.8.1",
+   "stableVersion": "1.8.1",
+   "stableToolchain": "0.1.0",
+   "versionMap":[
+    [ "0.1.0", "0.1.0", "1.8.1" ]
+   ],
+   "downloadFormat": "https://github.com/zeux/pugixml/releases/download/v$v/pugixml-$v.tar.gz",
+   "fileFormat": "pugixml-$v.tar.gz"
+  },
+  "msvc64":{
+   "minVersion": "1.8.1",
+   "stableVersion": "1.8.1",
+   "stableToolchain": "0.1.0",
+   "versionMap":[
+    [ "0.1.0", "0.1.0", "1.8.1" ]
+   ],
+   "downloadFormat": "https://github.com/zeux/pugixml/releases/download/v$v/pugixml-$v.zip",
+   "fileFormat": "pugixml-$v.zip"
+  }
+ }
+}
