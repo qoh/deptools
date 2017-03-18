@@ -1,0 +1,24 @@
+{
+ "platform":{
+  "gnu64":{
+   "minVersion": "0.9.8.4",
+   "stableVersion": "0.9.8.4",
+   "stableToolchain": "0.1.0",
+   "versionMap":[
+    [ "0.1.0", "0.1.0", "0.9.8.4" ]
+   ],
+   "downloadFormat": "https://github.com/g-truc/glm/archive/$v.tar.gz",
+   "fileFormat": "glm-$v.tar.gz"
+  },
+  "msvc64":{
+   "minVersion": "0.9.8.4",
+   "stableVersion": "0.9.8.4",
+   "stableToolchain": "0.1.0",
+   "versionMap":[
+    [ "0.1.0", "0.1.0", "0.9.8.4" ]
+   ],
+   "downloadFormat": "https://github.com/g-truc/glm/archive/$v.zip",
+   "fileFormat": "glm-$v.zip"
+  }
+ }
+}
