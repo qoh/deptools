@@ -1,0 +1,24 @@
+{
+ "platform":{
+  "gnu64":{
+   "minVersion": "5a8390696de075f421084f18cc8f6b1245920311",
+   "stableVersion": "5a8390696de075f421084f18cc8f6b1245920311",
+   "stableToolchain": "0.1.0",
+   "versionMap":[
+    [ "0.1.0", "0.1.0", "5a8390696de075f421084f18cc8f6b1245920311" ]
+   ],
+   "downloadFormat": "https://github.com/KhronosGroup/glslang/archive/$v.tar.gz",
+   "fileFormat": "glslang-$v.tar.gz"
+  },
+  "msvc64":{
+   "minVersion": "5a8390696de075f421084f18cc8f6b1245920311",
+   "stableVersion": "5a8390696de075f421084f18cc8f6b1245920311",
+   "stableToolchain": "0.1.0",
+   "versionMap":[
+    [ "0.1.0", "0.1.0", "5a8390696de075f421084f18cc8f6b1245920311" ]
+   ],
+   "downloadFormat": "https://github.com/KhronosGroup/glslang/archive/$v.zip",
+   "fileFormat": "glslang-$v.zip"
+  }
+ }
+}
