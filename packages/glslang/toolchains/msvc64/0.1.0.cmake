@@ -1,5 +1,12 @@
 set(${PKG_SIMPLE_NAME}_INCLUDE_DIRS ${PKG_INSTALL_DIR}/include)
-set(${PKG_SIMPLE_NAME}_LIBRARIES ${PKG_INSTALL_DIR}/lib/glslang.lib)
+set(${PKG_SIMPLE_NAME}_LIBRARIES
+	${PKG_INSTALL_DIR}/lib/glslang.lib
+	${PKG_INSTALL_DIR}/lib/OGLCompiler.lib
+	${PKG_INSTALL_DIR}/lib/OSDependent.lib
+	${PKG_INSTALL_DIR}/lib/HLSL.lib
+	${PKG_INSTALL_DIR}/lib/SPIRV.lib
+	${PKG_INSTALL_DIR}/lib/SPVRemapper.lib
+)
 
 # Create project entry
 ExternalProject_Add(${PKG_DISPLAY}
